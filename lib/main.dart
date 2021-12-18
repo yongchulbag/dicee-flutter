@@ -20,9 +20,11 @@ class DicePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
-        Image(
-          width: 20,
-          image: AssetImage('images/dice1.png'),
+        Expanded(
+          child: Image.asset('images/dice1.png'),
+        ),
+        Expanded(
+          child: Image.asset('images/dice1.png'),
         ),
       ],
     );
