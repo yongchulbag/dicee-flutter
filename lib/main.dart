@@ -16,14 +16,14 @@ void main() {
   );
 }
 
-class DicePage extends StatefulWidget {
+class DicePage extends StatefulWidget { //여기부터
   const DicePage({Key key}) : super(key: key);
 
   @override
   _DicePageState createState() => _DicePageState();
 }
 
-class _DicePageState extends State<DicePage> {
+class _DicePageState extends State<DicePage> { //여기까지 함수호출 및  key 부분이 이해가 잘 안됨
   var leftDiceNumber = 1;
   var rightDiceNumber = 1;
 
