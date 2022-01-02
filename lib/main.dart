@@ -17,13 +17,13 @@ void main() {
 }
 
 class DicePage extends StatefulWidget { //여기부터
-  const DicePage({Key key}) : super(key: key);
+  const DicePage({Key key}) : super(key: key); //강의 다시봐도 이게 뭔지 안나옴.... 이건 뭐여 대체....
 
   @override
   _DicePageState createState() => _DicePageState();
 }
 
-class _DicePageState extends State<DicePage> { //여기까지 함수호출 및  key 부분이 이해가 잘 안됨
+class _DicePageState extends State<DicePage> { //여기까지 함수호출 및  key 부분이 이해가 잘 안됨 (알아보니 스테이트풀 위젯 생성하면 자동으로 생성되는 클라스 두개임)
   var leftDiceNumber = 1;
   var rightDiceNumber = 1;
 
