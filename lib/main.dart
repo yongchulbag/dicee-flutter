@@ -18,7 +18,8 @@ void main() {
 
 class DicePage extends StatefulWidget { //여기부터
   const DicePage({Key key}) : super(key: key); //강의 다시봐도 이게 뭔지 안나옴.... 이건 뭐여 대체....
-
+                                              // 버전업되면서 기본으로 키가 들어가나보다
+                                              // 키가 뭔지는 여기 참조, https://nsinc.tistory.com/214
   @override
   _DicePageState createState() => _DicePageState();
 }
